@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Menu Simple con HTML Y CSS</title>
+	<link rel="stylesheet" href="estilos2.css">
+</head>
+<body>
+	<header>
+		<nav class="navegacion">
+			<ul class="menu">
+        <li><a href="tienda.html"> HOMEN</a></li>
+				<li><a href="tienda3.html">  INICIAR SECCIÓN</a></li>
+				<li><a href="tienda4.html">REGISTO USUARIO</a></li>
+        <li><a href="tienda8.html">PROMOCION</a></li>
+      
+        <li><a href="tienda9a.html">CARRITO DE COMPRAS</a></li>
+        <li><a href="tienda5.html">BUSCAR</a></li>
+         <li><a href="#">GENEROS LITEARIOS</a>
+					<ul class="submenu">
+						<li><a href="tienda11.html">NOVELA</a></li>
+						<li><a href="tieenada14.html">POESIA</a></li>
+						<li><a href="tienda16.html">CUENTO</a></li>
+            <li><a href="tienda16.html">TERROR</a></li>
+            <li><a href="tienda17.html">TRILOGIAS</a></li>
+					</ul>
+          <li><a href="tienda10.html">SALIR </a>
+				</li>
+				
+			</ul>
+		</nav>
+	</header>
+</body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="estilos3.css">
+  <title>Formulario Registro</title>
+</head>
+<body>
+  <section class="form-register">
+    <h1>Formulario de Registro</h1>
+
+    <form id="registration-form" method="POST" action="guardar_usuario.php">
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" required><br>
+
+      <label for="correo">Correo electrónico:</label><br>
+      <input type="email" id="correo" required><br>
+
+      <label for="telefono">Teléfono:</label><br>
+      <input type="tel" id="telefono" required><br>
+
+      <label for="contraseña">Contraseña:</label><br>
+      <input type="password" id="contraseña" required><br>
+
+      <button type="button" onclick="registrar()">Registrar</button>
+      <button type="button" onclick="mostrarDatosIngresados()">Mostrar Datos Ingresados</button>
+
+      <h2>Datos Ingresados:</h2>
+      <div id="datos-ingresados"></div>
+    </form>
+  </section>
+
+  
+  </script>
+</body>
+</html>
